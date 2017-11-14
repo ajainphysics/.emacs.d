@@ -1,0 +1,8 @@
+$aux_dir = ".emacs.c/latexmk";
+$out_dir = ".emacs.c/latexmk";
+
+$pdflatex = 'pdflatex -interaction=nonstopmode -synctex=1';
+# $pdf_previewer = 'displayline -b -g %n %o %b';
+$bibtex = 'bibtex';
+$biber = 'biber';
+$clean_ext = 'rel %R-blx.bib %R.synctex.gz';
