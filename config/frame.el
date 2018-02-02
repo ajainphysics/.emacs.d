@@ -29,6 +29,8 @@
 ;; (toggle-scroll-bar -1) ;; Disable scroll-bar
 (tool-bar-mode -1) ;; Disable tool-bar
 
+(delete-selection-mode 1) ;; Selection overwrite
+
 ;; Font Size
 ;;(when (system-type-is-darwin)
 ;;  (set-face-attribute 'default nil :height 150))
