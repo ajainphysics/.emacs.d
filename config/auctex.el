@@ -33,6 +33,9 @@
 (setq TeX-auto-local ".emacs.c/auto/") ; Directory for autosaves
 (setq TeX-save-query nil) ;; autosave before compiling
 
+(setq TeX-electric-sub-and-superscript t) ;; Automatic script braces
+(setq TeX-electric-math (cons "$" "$")) ;; Automatic dollars
+
 (setq latex-run-command "pdflatex")
 ;; (load "preview-latex.el" nil t t)
 (setq TeX-PDF-mode t) ;; set default to PDF-LaTeX
@@ -159,7 +162,11 @@
   "Format as \cref{LABEL}.  DEF-FMT and REF-STYLE are ignored at the moment."
   (format "\\cref{%s}" label))
 
+(setq reftex-ref-macro-prompt nil)
+
 (setq reftex-format-ref-function 'reftex-format-cref)
+
+(setq reftex-cite-format "~\\cite{%l}")
 
 (setq LaTeX-eqnarray-label "eq"
       LaTeX-equation-label "eq"

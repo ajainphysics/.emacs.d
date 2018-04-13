@@ -16,7 +16,7 @@
  '(ns-command-modifier (quote super))
  '(package-selected-packages
    (quote
-    (langtool async ssh-deploy restart-emacs smooth-scrolling smooth-scroll sublimity fill-column-indicator zenburn-theme web-mode tabbar sass-mode pyenv-mode py-autopep8 php-mode noctilux-theme material-theme flycheck elpy dracula-theme better-defaults auctex))))
+    (nlinum langtool async ssh-deploy restart-emacs smooth-scrolling smooth-scroll sublimity fill-column-indicator zenburn-theme web-mode tabbar sass-mode pyenv-mode py-autopep8 php-mode noctilux-theme material-theme flycheck elpy dracula-theme better-defaults auctex))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
